@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Challenge 3</title>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+    <script src="scripts/main.js" defer></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+    <link href="styles/mystyles.css" rel="stylesheet" />
+
+    <!-- Directions assets -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.js"></script>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.css" />
+    <!-- geocoder assets -->
+		<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js"></script>
+		<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css" />
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="instructions"><h3>From: 🚀 Landing point HHS</h3></div>
+    <article id="weather"><h3>Weather Info:</h3></article>
+		<input type="text" id="city">
+		<button type="button" id="buttonWeather">CHECK OTHER CITIES</button>
+
+  </body>
+</html>

@@ -1,0 +1,86 @@
+body {
+  margin: 5vh 5vw;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/37f002aa-032d-480b-9aa7-474adef47ed6/daqohse-f79cb156-0096-4748-9f7e-39b15cf2e86e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3ZjAwMmFhLTAzMmQtNDgwYi05YWE3LTQ3NGFkZWY0N2VkNlwvZGFxb2hzZS1mNzljYjE1Ni0wMDk2LTQ3NDgtOWY3ZS0zOWIxNWNmMmU4NmUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.J-x32M2EVAjG7wBPe_hvxGgyKH1dUGhBaoYqYjhUXW4');
+  background-size: cover;
+}
+#map {
+  height: 90vh;
+  width: 90vw;
+}
+
+div {
+  height: 35px;
+  width: 35px;
+}
+
+.mapboxgl-popup-content {
+    position: relative;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 2pxrgba(0,0,0,.1);
+    padding: 10px 10px 15px;
+    pointer-events: auto;
+    width: max-content;
+    height: auto;
+}
+
+#instructions {
+    position: absolute;
+    margin: 20px;
+    width: 25%;
+    height: max-content;
+    top: 35px;
+    bottom: 20%;
+    padding: 20px;
+    background-color: #fff;
+    font-family: helvetica;
+}
+
+#weather {
+  display: flex;
+  border: 3px solid black;
+  border-radius: 10px;
+  position: absolute;
+  width: auto;
+  height: max-content;
+  margin-left: auto;
+  top: 55px;
+  right: 95px;
+  bottom: 20%;
+  padding: 20px;
+  background-color: #fff;
+  font-family: helvetica;
+}
+
+#city {
+  display: flex;
+      position: absolute;
+      width: auto;
+      height: max-content;
+      margin-left: 50px;
+      top: 235px;
+      left: 72px;
+      /* right: 190px; */
+      bottom: 20%;
+      padding: 20px;
+      background-color: #fff;
+      font-family: helvetica;
+}
+
+#buttonWeather {
+  display: flex;
+  position: absolute;
+  width: auto;
+  height: max-content;
+  margin-left: auto;
+  top: 235px;
+  left: 334px;
+  border: 3px solid black;
+  color: black;
+  border-radius: 10px;
+  bottom: 20%;
+  padding: 20px;
+  background-color: steelblue;
+  font-family: helvetica;
+  font-weight: bold;
+}
